@@ -2,6 +2,9 @@
 
 Build a Vue component library with JavaScript and TypeScript declarations.
 
+Both rolldown-plugin-dts and the Vue content mapper are still under development
+and are not yet stable. APIs and behavior may change.
+
 ```sh
 pnpm install
 pnpm build
