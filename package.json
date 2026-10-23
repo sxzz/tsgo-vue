@@ -2,15 +2,15 @@
   "name": "tsgo-vue-example",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.15.0",
   "scripts": {
     "build": "tsdown",
     "typecheck": "tsc -p tsconfig.json --noEmit --runExternalCode",
     "test:types": "tsc -p tsconfig.test.json"
   },
   "devDependencies": {
-    "@vue/content-mapper": "file:vendor/content-mapper.tgz",
-    "tsdown": "0.23.1",
+    "@vue/content-mapper": "4.0.0-alpha.0",
+    "tsdown": "0.23.2",
     "typescript": "7.1.0-beta",
     "unplugin-vue": "8.0.0"
   },
